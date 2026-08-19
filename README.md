@@ -2799,9 +2799,6 @@ valueSearchBox:GetPropertyChangedSignal("Text"):Connect(function()
 end)
 
 task.spawn(function() LoadFullCatalog(false) end)
-
-
-
 -- This file was generated with SKS V1.2.0
 
 local fenv = getfenv();
